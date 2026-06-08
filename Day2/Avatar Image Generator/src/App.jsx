@@ -83,7 +83,7 @@ function App() {
 
   return (
     <>
-      <div className="min-h-screen bg-gradient-to-br from-black to-orange-200 flex items-center justify-center p-6">
+      <div className="min-h-screen bg-linear-to-br from-black to-orange-200 flex items-center justify-center p-6">
         <div className="w-full max-w-md backdrop-blur-xl border border-white/20 rounded-3xl shadow-2xl p-8 bg-black/30">
           {/* Avatar */}
           <div className="flex justify-center">
@@ -134,7 +134,7 @@ function App() {
             <div className="flex gap-4">
               <button
                 onClick={() => generate()}
-                className="flex-1 py-3 rounded-xl bg-gradient-to-r from-red-500 to-red-700 text-white font-semibold hover:scale-105 transition"
+                className="flex-1 py-3 rounded-xl bg-linear-to-r from-red-500 to-red-700 text-white font-semibold hover:scale-105 transition"
               >
                 Change Avatar
               </button>
