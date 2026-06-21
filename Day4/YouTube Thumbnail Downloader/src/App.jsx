@@ -24,7 +24,7 @@ function App() {
 
   return (
     <>
-      <div className="min-h-screen bg-gradient-to-br from-yellow-600 via-yellow-400 to-yellow-500 flex items-center justify-center px-4">
+      <div className="min-h-screen bg-linear-to-br from-yellow-600 via-yellow-400 to-yellow-500 flex items-center justify-center px-4">
         <div className="bg-white/10 backdrop-blur-lg border border-white/20 p-8 rounded-3xl shadow-2xl w-full max-w-2xl">
           <div className="text-center mb-8">
             <h1 className="text-4xl md:text-5xl font-bold text-black">
