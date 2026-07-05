@@ -1,0 +1,17 @@
+curl "https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent" \
+  -H "x-goog-api-key: $GEMINI_API_KEY" \
+  -H 'Content-Type: application/json' \
+  -X POST \
+  -d '{
+    "contents": [
+      {
+        "parts": [
+          {
+            "text": "Explain how AI works in a few words"
+          }
+        ]
+      }
+    ]
+  }'
+
+  const API_KEY = "AQ.Ab8RN6LyyqhSA4tokwi2RL1alT6oW7JfmJUlRaOwX_5I_kwx3A";
