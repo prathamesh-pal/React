@@ -1,0 +1,100 @@
+@import 'tailwindcss';
+
+.jg-bg {
+   
+    background-color: #020b14;
+
+    background-image:
+        linear-gradient(rgba(150, 255, 255, 0.05) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(150, 255, 255, 0.05) 1px, transparent 1px),
+
+        radial-gradient(circle at 18% 20%, rgba(0, 255, 255, 0.45), transparent 35%),
+        radial-gradient(circle at 82% 18%, rgba(135, 206, 250, 0.40), transparent 35%),
+        radial-gradient(circle at 50% 85%, rgba(255, 255, 255, 0.18), transparent 45%);
+
+    background-size: 28px 28px, 28px 28px, 100% 100%, 100% 100%, 100% 100%;
+
+    animation: neonPulse 2s ease-in-out infinite alternate;
+}
+
+@keyframes neonPulse {
+    0% {
+        filter: brightness(1) saturate(1.2);
+    }
+    100% {
+        filter: brightness(1.15) saturate(1.6);
+    }
+}
+
+.jg-display {
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.jg-mono {
+    font-family: 'JetBrains Mono', monospace;
+}
+
+.jg-body {
+    font-family: 'Inter', sans-serif;
+}
+
+.jg-window {
+    background: #0F172A;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    box-shadow: 0 20px 60px -20px rgba(0, 0, 0, 0.6), 0 0 0 1px rgba(255, 255, 255, 0.02);
+}
+
+.jg-titlebar {
+    background: #0B1220;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.jg-dot {
+    width: 11px;
+    height: 11px;
+    border-radius: 999px;
+}
+
+.jg-tab {
+    background: #0F172A;
+    border-top: 2px solid #F5A623;
+    color: #E5E7EB;
+}
+
+.jg-label {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #64748B;
+}
+
+.jg-brace {
+    color: #2DD4BF;
+}
+
+.jg-key {
+    color: #F5A623;
+}
+
+.jg-cursor {
+    display: inline-block;
+    width: 3px;
+    height: 1em;
+    background: #2DD4BF;
+    margin-left: 6px;
+    animation: jg-blink 1s steps(1) infinite;
+    vertical-align: text-bottom;
+}
+
+@keyframes jg-blink {
+    50% {
+        opacity: 0;
+    }
+}
+
+.jg-field .ant-select-selector,
+.jg-field .ant-input-number {
+    background: #0B1220 !important;
+    border-color: rgba(255, 255, 255, 0.1) !important;
+}
