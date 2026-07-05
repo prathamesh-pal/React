@@ -7,9 +7,13 @@ import "react-toastify/dist/ReactToastify.css";
 import "animate.css";
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 const API_KEY = "AQ.Ab8RN6LyyqhSA4tokwi2RL1alT6oW7JfmJUlRaOwX_5I_kwx3A";
 >>>>>>> 08f3ed0 (Just do it)
+=======
+const API_KEY = "";
+>>>>>>> a14b2c8 (1)
  
 function App() {
   const [message, setMessage] = useState("");
