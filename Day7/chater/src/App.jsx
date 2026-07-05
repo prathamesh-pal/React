@@ -6,7 +6,7 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import "animate.css";
 
-const API_KEY = "";
+// const API_KEY = "";
  
 function App() {
   const [message, setMessage] = useState("");
