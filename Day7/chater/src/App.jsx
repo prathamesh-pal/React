@@ -8,12 +8,16 @@ import "animate.css";
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 const API_KEY = "AQ.Ab8RN6LyyqhSA4tokwi2RL1alT6oW7JfmJUlRaOwX_5I_kwx3A";
 >>>>>>> 08f3ed0 (Just do it)
 =======
 const API_KEY = "";
 >>>>>>> a14b2c8 (1)
+=======
+// const API_KEY = "";
+>>>>>>> 21d66a5 (h)
  
 function App() {
   const [message, setMessage] = useState("");
